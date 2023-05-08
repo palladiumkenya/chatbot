@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            },
+            plugins: [
+                require('@tailwindcss/forms'),],
+
+        }
+    </script>
+
+
+    <title>JijueChat</title>
+</head>
+
+<body>
+    <div class="bg-white">
+
+
+
+
+    <div class="relative isolate px-6 pt-14 lg:px-8">
+
+      
+
+       
+
+
+        <!-- Responses -->
+
+        <div class="mx-auto mt-5 max-w-3xl sm:mt-3">
+            <div class="">
+                <p id="response"></p>
+            </div>
+        </div>
+
+        <!-- form here -->
+
+        <form action="#" method="POST" class="mx-auto mt-5 max-w-3xl sm:mt-3">
+            <div class="grid grid-cols-1 gap-y-6 gap-x-8 sm:grid-cols-2">
+
+                <div class="sm:col-span-2">
+                    <label for="message" class="block text-sm font-semibold leading-6 text-gray-900">Prompt</label>
+                    <div class="mt-2.5">
+                        <textarea name="question" id="question" rows="4"
+                            class="block w-full rounded-md border-0 py-2 px-3.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"></textarea>
+                    </div>
+                </div>
+
+            </div>
+            <div class="mt-10">
+                <button id="submit-button" type="submit"
+                    class="block w-full rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Submit</button>
+            </div>
+        </form>
+
+
+
+        <!-- end form -->
+
+
+        <div
+            class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]">
+            <svg class="relative left-[calc(50%+3rem)] h-[21.1875rem] max-w-none -translate-x-1/2 sm:left-[calc(50%+36rem)] sm:h-[42.375rem]"
+                viewBox="0 0 1155 678">
+                <path fill="url(#ecb5b0c9-546c-4772-8c71-4d3f06d544bc)" fill-opacity=".3"
+                    d="M317.219 518.975L203.852 678 0 438.341l317.219 80.634 204.172-286.402c1.307 132.337 45.083 346.658 209.733 145.248C936.936 126.058 882.053-94.234 1031.02 41.331c119.18 108.451 130.68 295.337 121.53 375.223L855 299l21.173 362.054-558.954-142.079z" />
+                <defs>
+                    <linearGradient id="ecb5b0c9-546c-4772-8c71-4d3f06d544bc" x1="1155.49" x2="-78.208" y1=".177"
+                        y2="474.645" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#9089FC" />
+                        <stop offset="1" stop-color="#FF80B5" />
+                    </linearGradient>
+                </defs>
+            </svg>
+        </div>
+    </div>
+    </div>
+
+
+
+
+    <script src="/static/jquery.min.js"></script>
+
+
+    <script>
+        jQuery(document).ready(function () {
+            $("#submit-button").click(function (e) {
+                e.preventDefault();
+
+                $.ajax({
+                    type: "POST",
+                    url: "/chatbot",
+                    data: {
+                        question: $("#question").val(),
+                    },
+                    success: function (result) {
+                        $("#response").append(
+                            "<br>Me : " +
+                            $("#question").val() + "<br>" +
+                            "<br> Nishauri : " +
+                            result.response +
+                            "<br> <br> <hr>"
+                        );
+                        $("#question").val("");
+                    },
+                    error: function (result) {
+                        alert("error");
+                    },
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>
