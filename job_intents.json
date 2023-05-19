@@ -111,19 +111,19 @@
       ],
       "responses": [
         "I am a chatbot",
-        "My name is Jijue Chatbot",
-        "You can call me JC in short",
+        "My name is Shauri",
+        "You can call me Shauri in short",
         "I am a chatbot created to help you",
-        "My name is ChatBot. How can I assist you today?",
-        "I'm ChatBot, nice to meet you! What can I help you with?",
-        "My name is Jijue and I'm here to help. What brings you here?",
-        "I'm a chatbot designed to assist you. How can I be of service?",
-        "My name is ChatBot, and I'm here to answer your questions. What can I help you with?",
-        "I'm a chatbot here to assist you. What can I do for you today?",
-        "My name is ChatBot. What can I assist you with today?",
-        "I'm a chatbot designed to help you find the information you need. What would you like to know?",
-        "My name is ChatBot. How can I make your experience better?",
-        "I'm a chatbot here to assist you with any questions or concerns you may have. What can I help you with?"
+        "My name is Shauri. How can I assist you today?",
+        "I'm Shauri, nice to meet you! What can I help you with?",
+        "My name is Shauri and I'm here to help. What brings you here?",
+        "I'm Shauri designed to assist you. How can I be of service?",
+        "My name is Shauri, and I'm here to answer your questions. What can I help you with?",
+        "I'm Shauri here to assist you. What can I do for you today?",
+        "My name is Shauri. What can I assist you with today?",
+        "I'm Shauri designed to help you find the information you need. What would you like to know?",
+        "My name is Shauri. How can I make your experience better?",
+        "I'm a Shauri here to assist you with any questions or concerns you may have. What can I help you with?"
       ]
     },
 
@@ -137,78 +137,12 @@
         "How can you help"
       ],
       "responses": [
-        "I can tell you facts about HIV",
-        "Im here to help you navigate the Jijue risk assessment website",
-        "I can help you with questions pertaining Jijue website",
+        "I can tell support you during your ART services care",
+        "Im here to help you navigate the nishauri app",
+        "I can help you with questions pertaining ART patient services",
         "I am here to answer your questions"
       ]
     },
-
-    {
-      "tag": "hiv_info",
-      "patterns": [
-        "HIV",
-        "What can you tell me about HIV",
-        "HIV/AIDS",
-        "HIV and AIDS",
-        "What is HIV and AIDS",
-        "What is HIV/AIDS",
-        "About HIV/AIDS",
-        "Tell me about HIV",
-        "What about HIV",
-        "What do you know about HIV",
-        "Tell me more about HIV",
-        "What can you tell me about HIV",
-        "Tell me about HIV",
-        "About HIV",
-        "What is HIV",
-        "Tell me more about HIV"
-      ],
-      "responses": [
-        "Did you know that HIV came from chimps as far back as the 19th century? Human hunters were the bridge to this, as they would eat the meat or come into contact with the blood of monkeys and apes. HIV, fully known as the Human Immunodeficiency Virus is a virus that weakens the body’s ability to fight off infections. A non-curable but controllable disease. Therefore a person infected with HIV has a resultant weak immunity and if not treated will lead to AIDS- Acquired Immunodeficiency Syndrome- the most severe phase of HIV infection."
-      ]
-    },
-
-    {
-      "tag": "hiv_facts",
-      "patterns": [
-        "HIV Facts",
-        "HIV and AIDS facts",
-        "Give me some facts about HIV",
-        "Gimme some facts about HIV",
-        "Give me some facts about HIV/AIDS",
-        "Give me some facts about HIV and AIDS",
-        "HIV Facts",
-        "HIV interesting facts",
-        "facts on HIV",
-        "HIV interesting facts",
-        "Tell me something interesting",
-        "Some facts"
-      ],
-      "responses": [
-        "HIV (human immunodeficiency virus) is a virus that attacks the immune system, leaving the body vulnerable to infections and diseases.",
-        "AIDS (acquired immunodeficiency syndrome) is the final stage of HIV infection, when the immune system is severely damaged.",
-        "HIV is spread through the exchange of bodily fluids, such as blood, semen, vaginal fluids, and breast milk.",
-        "HIV can be transmitted through sexual contact, sharing needles, and from mother to child during pregnancy, childbirth, or breastfeeding.",
-        "HIV can also be transmitted through blood transfusions and organ transplants, although these modes of transmission are now rare in developed countries due to testing and screening measures.",
-        "There is currently no cure for HIV or AIDS, but antiretroviral therapy (ART) can suppress the virus and slow the progression of the disease.",
-        "ART is a combination of medications that target different stages of the virus's life cycle, and must be taken daily for life.",
-        "HIV is a global pandemic, with an estimated 38 million people living with HIV worldwide as of 2021.",
-        "Sub-Saharan Africa is the most affected region, accounting for over two-thirds of all people living with HIV.",
-        "HIV disproportionately affects marginalized and stigmatized populations, including men who have sex with men, sex workers, people who inject drugs, and transgender people.",
-        "HIV testing is an essential component of HIV prevention and treatment, as early detection and treatment can significantly improve health outcomes and reduce transmission.",
-        "HIV testing is available through healthcare providers, community-based organizations, and at-home testing kits.",
-        "HIV stigma and discrimination continue to be major barriers to HIV prevention and treatment, as they discourage people from getting tested and accessing care.",
-        "HIV-positive people can lead long and healthy lives with the help of ART, but they may still face social, economic, and health challenges related to their HIV status.",
-        "HIV-positive people can also transmit the virus to others, even if they have an undetectable viral load (the amount of virus in their blood).",
-        "Pre-exposure prophylaxis (PrEP) is a daily pill that can reduce the risk of HIV transmission by over 90% for people at high risk of HIV infection.",
-        "Post-exposure prophylaxis (PEP) is a treatment that can reduce the risk of HIV transmission after potential exposure, such as unprotected sex or needle sharing.",
-        "HIV-related stigma and discrimination can also have negative impacts on mental health, including depression, anxiety, and social isolation.",
-        "HIV/AIDS has had a significant impact on global health and development, with an estimated 38 million people dying from AIDS-related illnesses since the beginning of the epidemic.",
-        "Despite these challenges, advances in HIV prevention and treatment have significantly improved health outcomes for people living with HIV, and efforts to end the epidemic continue to gain momentum."
-      ]
-    },
-
     {
       "tag": "hiv_symptoms",
       "patterns": [
@@ -297,115 +231,9 @@
         "You can get an HIV test at your doctor's office, a clinic, or a testing center.",
         "You can order or buy a test kit online or from your local store.",
         "You should get tested as soon as possible to know your HIV status",
-        "Jijue offers appointment services to VCT for testing. Book appointment with as at https://jijue.kenyahmis.org/appointment",
         "Visit ant clinic and testing centers for free HIV testing."
       ]
     },
-
-    {
-      "tag": "about_condoms",
-      "patterns": [
-        "What are condoms?",
-        "How do condoms work?",
-        "What are the different types of condoms?",
-        "Are all condoms made of latex?",
-        "Can condoms break?",
-        "Can condoms expire?",
-        "How effective are condoms at preventing pregnancy?",
-        "How effective are condoms at preventing sexually transmitted infections (STIs)?",
-        "Can you use condoms for oral sex?",
-        "How should you store condoms?",
-        "Can you use condoms with lubricants?",
-        "What types of lubricants are safe to use with condoms?",
-        "What should you do if a condom breaks during sex?",
-        "How do you put on a condom?",
-        "How do you know if a condom fits properly?",
-        "Can condoms be used more than once?",
-        "Can you use a condom with a sex toy?",
-        "What should you do if a condom gets stuck inside you?",
-        "How do you dispose of condoms?",
-        "How do you talk to your partner about using condoms?",
-        "What should you do if your partner refuses to use a condom?",
-        "Can you use two condoms at once for extra protection?",
-        "Can condoms reduce sexual pleasure?",
-        "Can you use flavored condoms for oral sex?",
-        "Can condoms be used during anal sex?",
-        "How do you know if a condom is damaged or defective?",
-        "Can condoms cause allergic reactions?",
-        "How can you prevent condoms from slipping off during sex?",
-        "Are condoms safe for people with latex allergies?",
-        "Can condoms be used with other forms of birth control?",
-        "How long should a condom last during sex?",
-        "What should you do if a condom breaks during sex?",
-        "Are there any risks associated with using condoms?",
-        "Can condoms be used during menstruation?",
-        "What should you do if a condom comes off during sex?",
-        "Can condoms be used underwater?",
-        "Are there any negative side effects of using condoms?",
-        "Can condoms prevent the transmission of HIV?",
-        "Can condoms be used during pregnancy?",
-        "Can condoms be used by both men and women?",
-        "Can condoms be used with spermicide?",
-        "What is the difference between male and female condoms?",
-        "How do female condoms work?",
-        "Can you use a condom if you have a yeast infection?",
-        "Can you use a condom if you have bacterial vaginosis?",
-        "Can condoms be used for analingus (rimming)?"
-      ],
-      "responses": [
-        "Condoms are a type of barrier contraceptive made of materials like latex or polyurethane.",
-        "Condoms work by preventing semen, vaginal fluids, or blood from entering the body of a sexual partner.",
-        "There are several types of condoms, including male condoms, female condoms, and novelty condoms.",
-        "some condoms are made of materials like polyurethane or polyisoprene.",
-        "condoms can break if they are not used correctly or if they are damaged.",
-        "condoms can expire and may not be effective if used past their expiration date.",
-        "When used correctly, condoms are up to 98% effective at preventing pregnancy.",
-        "Condoms are an effective way to reduce the risk of contracting STIs during sexual activity.",
-        "While condoms are not typically used for oral sex, flavored condoms can be used for oral sex.",
-        "Condoms should be stored in a cool, dry place away from direct sunlight or extreme temperatures.",
-        "condoms can be used with lubricants to reduce friction during sexual activity.",
-        "Water-based or silicone-based lubricants are safe to use with condoms.",
-        "If a condom breaks during sex, stop immediately and put on a new condom to reduce the risk of STI transmission or pregnancy.",
-        "To put on a condom, first make sure the penis is erect, then unroll the condom over the head and shaft of the penis.",
-        "A properly fitting condom should be snug but not too tight, and cover the entire length of the penis.",
-        "condoms should only be used once and then discarded.",
-        "condoms can be used with sex toys to reduce the risk of STI transmission.",
-        "If a condom gets stuck inside you, use your fingers to remove it, or seek medical attention if you are unable to remove it.",
-        "Condoms should be wrapped in tissue or toilet paper and disposed of in a trash can, not flushed down the toilet.",
-        "Talking to your partner about using condoms is an important part of sexual health and safety.",
-        "If your partner refuses to use a condom, consider finding a new partner or engaging in other forms of sexual activity that reduce the risk of STI transmission.",
-        "using two condoms at once can actually increase the risk of breakage and reduce effectiveness.",
-        "While condoms may reduce sensitivity slightly, they can also enhance sexual pleasure by reducing anxiety and increasing comfort.",
-        "flavored condoms are designed for use during oral sex and come in a variety of flavors.",
-        "condoms can be used during anal sex to reduce the risk of STI transmission.",
-        "A condom should be inspected before use for any visible damage or defects.",
-        "Some people may experience allergic reactions to latex or other materials in condoms.",
-        "To prevent condoms from slipping off, make sure the condom fits properly and use lubricant to reduce friction.",
-        "People with latex allergies can use non-latex condoms made of materials like polyurethane or polyisoprene.",
-        "Condoms can be used in combination with other forms of birth control to increase effectiveness.",
-        "A condom should last for the duration of sexual activity, but should not be reused.",
-        "If a condom breaks during sex, stop immediately and put on a new condom to reduce the risk of STI transmission or pregnancy.",
-        "There are some risks associated with using condoms, including breakage, allergic reactions, and reduced sensitivity.",
-        "condoms can be purchased without a prescription at most drugstores or online.",
-        "Using a condom can be a responsible and respectful choice for both partners to reduce the risk of STI transmission.",
-        "There are many resources available to learn more about condom use and sexual health, including healthcare providers, online resources, and educational materials.",
-        "Condoms are a safe and effective way to prevent unintended pregnancy and reduce the risk of STI transmission.",
-        "If you are experiencing any discomfort or irritation while using a condom, stop use and seek medical attention if necessary.",
-        "Using a condom is an important way to protect yourself and your partner from the risk of STIs and unintended pregnancy.",
-        "Condoms should be put on before any sexual contact occurs to reduce the risk of STI transmission.",
-        "If you are unsure about how to properly use a condom, there are many resources available for education and guidance.",
-        "Using a condom can be a responsible and respectful way to protect yourself and your partner during sexual activity.",
-        "While condoms are not 100% effective at preventing STI transmission or pregnancy, they are one of the most effective forms of barrier contraception available.",
-        "It is important to use a new condom every time you engage in sexual activity to reduce the risk of STI transmission or pregnancy.",
-        "Condoms are available in a variety of sizes and styles to ensure proper fit and increased comfort during use.",
-        "While condoms are effective at reducing the risk of STI transmission, they do not provide protection against all STIs, such as HPV.",
-        "Using a condom can be an important part of responsible sexual behavior and decision-making.",
-        "Condoms can be a helpful tool for people of all genders and sexual orientations to reduce the risk of STI transmission and unintended pregnancy.",
-        "If you experience any unusual symptoms or discomfort after using a condom, seek medical attention to ensure proper diagnosis and treatment.",
-        "Using a condom can be an important part of maintaining sexual health and safety for yourself and your partner."
-      ]
-    },
-
     {
       "tag": "what_is_prep",
       "patterns": [
@@ -711,6 +539,292 @@
       "responses": [
         "Nishauri provides you with a page where you can book an appointment to your nearest facility. Navigate to https://jijue.kenyahmis.org/appoitnment. Thank you."
       ]
+    },
+    {
+      "tag": "feelingbad",
+      "patterns": [
+        "Help",
+        "Ask",
+        "Treatment",
+        "Feeling bad",
+        "Care",
+        "Side effects",
+        "Saidia",
+        "Siko sawa"
+      ],
+      "responses": [
+        "Call your facility and report to your care provider",
+        "Piga simu kwa mtoa huduma wako",
+        "Seek help at the nearest health facility",
+        "Tafuta usaidizi katika kituo cha afya kilicho karibu nawe"
+      ]
+      },
+      {
+          "tag": "treatment",
+          "patterns": [
+            "Care",
+            "Drugs",
+            "Medication",
+            "Regimen",
+            "Matibabu"
+          ],
+          "responses": [
+            "Click on home on the application to see your current regimen",
+            "Ask your treatment provider at your health facility to educate you more on this",
+            "Bonyeza nyumbani kwenye NiShauri ili kuona utaratibu wako wa sasa",
+            "Uliza mtoa huduma wako wa matibabu katika kituo chako cha afya akuelimishe zaidi kuhusu hili"
+          ]
+      },
+      {
+          "tag": "stable",
+          "patterns": [
+            "Stability",
+            "Longer Appointments",
+            "Clinic attendance",
+            "Kuhudhuria kliniki",
+            "Kliniki"
+          ],
+          "responses": [
+            "A stable client is a person living with HIV on ART and is adherent and does not need frequent clinical consultation",
+            "Mgonjwa dhbiti ni mtu anayeishi na virusi na ni mtu anayezingatia kuchukua dawa na haitaji ushauri wa kliniki mara kwa mara",
+            "Clients who are stable are usually put under differentiated service delivery, where they attend clinical consultations after every 6 months",
+            "Wateja ambao ni thabiti kwa kawaida huwekwa chini ya utoaji wa huduma tofauti, ambapo huhudhuria mashauriano ya kliniki kila baada ya miezi 6"
+          ]
+      },
+      {
+          "tag": "results",
+          "patterns": [
+              "Sample",
+              "VL",
+              "vl",
+              "EID",
+              "PCR",
+              "Viral Load",
+              "LDL",
+              "Majibu"
+          ],
+          "responses": [
+            "A high viral load is any results for a sample taken with over 836 copies/ml",
+            "An LDL or Lower than detectable limit is any results for a sample taken with a number of copies/ml that is lower than 50",
+            "For a stable cleint it should be as often as after every 3 months while for unstable client, you seek guidance from your treatment provider",
+            "Kiwango kikubwa cha virusi ni matokeo yoyote ya sampuli iliyochukuliwa na zaidi ya nakala 836/ml",
+            "LDL au Lower than detectable limit (Chini kuliko kikomo kinachotambulika) ni matokeo yoyote ya sampuli iliyochukuliwa na idadi ya nakala/ml ambayo ni chini ya 50",
+            "Kwa mteja thabiti inapaswa kuwa mara nyingi kama baada ya kila miezi 3 wakati kwa mteja asiye na utulivu, unatafuta mwongozo kutoka kwa mtoa huduma wako wa matibabu."
+          ]
+      },
+      {
+          "tag": "baby",
+          "patterns": [
+            "EID",
+            "PCR",
+            "pcr",
+            "baby",
+            "Positive",
+            "+ve",
+            "Majibu ya mtoto",
+            "Mtoto"
+          ],
+          "responses": [
+            "If your baby's results are positve, we encourage you to immediately visit your nearest health facility or the health facility where your baby receives care",
+            "Ikiwa matokeo ya mtoto wako ni positive, tunakuhimiza kutembelea kituo cha afya kilicho karibu nawe au kituo cha afya ambapo mtoto wako anapata huduma."
+          ]
+      }
+      , {
+        "tag": "artregimen",
+        "patterns": [
+            "What does an ART regimen consist of in the treatment of HIV?",
+            "How is an ART regimen determined for individuals with HIV?",
+            "What are the primary goals of an ART regimen?",
+            "How does an ART regimen work to suppress the HIV virus?",
+            "What are the different types of medications included in an ART regimen?",
+            "Are there any factors that may affect the selection of an ART regimen?",
+            "How frequently should an ART regimen be taken?",
+            "What are the potential benefits of adhering to an ART regimen?",
+            "Can an ART regimen be adjusted or modified over time?",
+            "Are there any potential side effects associated with an ART regimen?"
+            ],
+        "responses": [
+            "An ART regimen is a combination of medications used to treat HIV infection, typically consisting of three or more antiretroviral drugs.",
+            "The specific selection of medications in an ART regimen is determined based on factors such as the individual's viral load, CD4 cell count, drug resistance testing, and potential drug interactions.",
+            "The primary goals of an ART regimen are to suppress the HIV virus, restore immune function, reduce the risk of opportunistic infections, and improve overall health outcomes for people living with HIV.",
+            "An ART regimen works by targeting different stages of the HIV life cycle, inhibiting viral replication, and preventing the virus from damaging the immune system.",
+            "The medications included in an ART regimen belong to different classes, such as nucleoside reverse transcriptase inhibitors (NRTIs), non-nucleoside reverse transcriptase inhibitors (NNRTIs), protease inhibitors (PIs), integrase inhibitors (INSTIs), and entry inhibitors.",
+            "Factors considered in selecting an ART regimen may include the individual's previous treatment history, potential drug interactions, coexisting health conditions, and personal preferences.",
+            "Adherence to an ART regimen is crucial, and the medications are typically taken once or twice daily, as prescribed by the healthcare provider.",
+            "Adhering to an ART regimen consistently and correctly can greatly improve treatment outcomes, including viral suppression, immune reconstitution, and reduced risk of HIV-related complications.",
+            "ART regimens may be modified or adjusted over time based on factors such as changes in viral load, CD4 cell count, side effects, or the availability of newer, more effective medications.",
+            "Side effects of ART regimens can vary depending on the specific medications used, but they are generally well-tolerated. Common side effects may include nausea, diarrhea, fatigue, and metabolic changes. Regular monitoring and communication with healthcare providers can help manage any side effects that may arise."
+        ]
+    },
+    {
+        "tag": "stable",
+        "patterns": [
+            "What criteria are used to identify someone as a stable HIV patient?",
+            "How is stability determined for individuals living with HIV?",
+            "What factors indicate that a person with HIV has achieved stability?",
+            "Who is responsible for determining whether someone is a stable HIV patient?",
+            "Are there specific medical tests or measurements used to assess stability in HIV patients?",
+            "How does viral suppression contribute to the stability of someone living with HIV?",
+            "Can stability vary over time for individuals with HIV?",
+            "What role does adherence to medication play in maintaining stability for HIV patients?",
+            "Are there any lifestyle factors that can affect the stability of someone living with HIV?",
+            "How does stability impact the overall health and well-being of individuals with HIV?"
+        ],
+        "responses": [
+            "A stable HIV patient is typically identified by healthcare professionals, including doctors specializing in HIV care or infectious diseases.",
+            "Stability for individuals living with HIV is determined based on various factors, such as viral load suppression, CD4 cell count, overall health status, and adherence to antiretroviral therapy.",
+            "Factors indicating stability in HIV patients include consistently low or undetectable viral load, a stable or improving CD4 cell count, absence of opportunistic infections, and overall good health.",
+            "The responsibility of identifying a stable HIV patient lies with the healthcare team, including doctors, nurses, and other healthcare professionals involved in the care and management of HIV.",
+            "Medical tests, such as viral load tests and CD4 cell count measurements, are commonly used to assess stability in HIV patients. Other health indicators, including physical examinations and laboratory tests, may also be considered.",
+            "Viral suppression through adherence to antiretroviral therapy is a critical component of stability for HIV patients. It indicates that the medication is effectively controlling the virus and preventing disease progression.",
+            "Stability can vary over time for individuals with HIV due to factors such as treatment response, changes in health status, and adherence to medication. Regular monitoring is essential to evaluate and maintain stability.",
+            "Adherence to medication is crucial in achieving and sustaining stability for HIV patients. Consistent and correct use of antiretroviral therapy is necessary to suppress viral replication and maintain long-term health.",
+            "Lifestyle factors, such as a balanced diet, regular exercise, avoiding substance abuse, and managing stress, can positively impact stability in HIV patients by supporting overall health and immune function.",
+            "Stability has significant implications for the overall well-being of individuals with HIV. It reduces the risk of disease progression, improves quality of life, and lowers the chances of transmitting the virus to others. Achieving stability is an important goal of HIV treatment and care."
+        ]
+    },
+    {
+        "tag": "vlgen",
+        "patterns": [
+            "What is the target viral load for someone with my condition, and am I within that range?",
+            "How often should I get my viral load checked, and what are the risks of not checking it regularly?",
+            "Are there any lifestyle changes or medications I can take to lower my viral load?",
+            "What factors can affect my viral load, and how can I manage them?",
+            "How long does it typically take for viral load to become undetectable, and what does that mean for my treatment plan?",
+            "Are there any symptoms I should be aware of that could indicate a change in my viral load?",
+            "How does viral load affect my immune system, and what can I do to support my immune health?",
+            "What are the potential long-term effects of having a high viral load, and how can I minimize those risks?",
+            "Are there any clinical trials or experimental treatments that could help lower my viral load?"
+        ],
+        "responses": [
+            "The target viral load for someone with your condition is typically between 20 and 200 copies per milliliter of blood.",
+            "You should get your viral load checked every three months to monitor your progress and adjust your treatment plan as needed.",
+            "There are several lifestyle changes you can make, such as eating a healthy diet and avoiding alcohol and drugs, that can help lower your viral load.",
+            "Factors that can affect your viral load include stress, illness, and medication adherence. We can work together to manage these factors and improve your outcomes.",
+            "It can take several months or even years for viral load to become undetectable, but consistent treatment and follow-up can help achieve this goal.",
+            "Symptoms that could indicate a change in your viral load include fever, fatigue, and swollen lymph nodes. If you experience these symptoms, please contact us for further evaluation.",
+            "Your viral load can weaken your immune system and make you more susceptible to infections. Eating a balanced diet, exercising, and getting adequate rest can help support your immune health.",
+            "Long-term effects of having a high viral load can include liver damage and increased risk of liver cancer. However, consistent treatment and follow-up can help minimize these risks.",
+            "We are not currently enrolling patients in any clinical trials or experimental treatments for viral load, but I can refer you to a specialist who may have more information.",
+            "Your viral load count has decreased significantly since your last test, which is a positive sign.",
+            "While your viral load count is still high, we can adjust your treatment plan to help lower it and improve your outcomes.",
+            "It is important to take your medication as prescribed and attend all follow-up appointments to ensure we are effectively managing your viral load.",
+            "Other factors that can affect your viral load include smoking, poor diet, and untreated mental health conditions. We can work together to address these factors and improve your outcomes.",
+            "Your viral load count is currently undetectable, which is a great sign! We will continue to monitor your progress and adjust your treatment plan as needed.",
+            "If your viral load count does not improve with treatment, we may need to consider switching medications or exploring other treatment options.",
+            "It is important to avoid sharing needles or other drug paraphernalia to prevent transmission of viral infections and protect your health.",
+            "There are support groups and resources available for individuals living with viral infections. I can provide you with information on these resources if you are interested.",
+            "While there is no cure for viral infections, effective treatment and follow-up can help manage your symptoms and improve your quality of life.",
+            "If you have any concerns or questions about your viral load or treatment plan, please do not hesitate to contact me. We are here to support you in your journey toward better health."
+        ]
+    },
+    {
+      "tag": "eidgen",
+      "patterns": [
+           "Can you explain what Early Infant Diagnosis means?",
+           "What does the term Early Infant Diagnosis refer to?",
+           "How would you define Early Infant Diagnosis?",
+           "Could you provide a brief overview of Early Infant Diagnosis?",
+           "What exactly is meant by Early Infant Diagnosis?",
+           "In simple terms, what is Early Infant Diagnosis?",
+           "What is the definition of Early Infant Diagnosis?",
+           "What do we mean by Early Infant Diagnosis?",
+           "What is the concept behind Early Infant Diagnosis?",
+           "Can you describe what Early Infant Diagnosis is all about?"
+      ],
+      "responses": [
+           "Early Infant Diagnosis is a medical procedure that involves testing newborns for certain diseases or conditions shortly after birth.",
+           "Early Infant Diagnosis is a crucial process that helps to identify and treat medical conditions in infants before they become severe or life-threatening.",
+           "Early Infant Diagnosis is a screening process that allows healthcare professionals to detect any potential health issues in newborns early on, so that they can receive appropriate treatment as soon as possible.",
+           "Early Infant Diagnosis is an essential part of pediatric healthcare that aims to prevent the spread of infectious diseases and other conditions among infants.",        
+           "Early Infant Diagnosis involves testing a newborn's blood, saliva, or other bodily fluids to determine if they have any health issues that require medical attention.",
+           "Early Infant Diagnosis is particularly important for infants born to mothers who are infected with HIV, as prompt testing and treatment can help to prevent the transmission of the virus to the baby.",
+           "Early Infant Diagnosis is a proactive approach to healthcare that can help to improve the health outcomes of newborns and reduce the burden of disease in communities.",
+           "Early Infant Diagnosis is a critical component of public health efforts to reduce infant mortality and improve the health of vulnerable populations.",
+           "Early Infant Diagnosis is a multifaceted process that involves screening, testing, counseling, and follow-up care to ensure that infants receive the best possible healthcare.",
+           "Early Infant Diagnosis is an important tool for healthcare providers and families to monitor the health of newborns and ensure that they receive appropriate care and treatment."
+      ]
+    },
+    {
+      "tag": "hivtreatment",
+      "patterns": [
+          "Can you explain what is meant by HIV care?",
+          "What are the components of HIV care?",
+          "What services are included in HIV care?",
+          "How is HIV care provided to patients?",
+          "What are the goals of HIV care?",
+          "Who provides HIV care to individuals living with HIV?",
+          "What are the benefits of receiving HIV care?",
+          "What is the importance of HIV care for people living with HIV?",
+          "What are the challenges associated with providing HIV care?",
+          "How has HIV care evolved over time?"
+      ],
+      "responses": [
+          "HIV care is a comprehensive and multidisciplinary approach to managing HIV infection and improving the health outcomes of individuals living with the virus.",
+          "HIV care involves a range of medical, social, and emotional services designed to address the complex needs of people living with HIV, and to ensure that they receive appropriate treatment and support.",
+          "The primary goal of HIV care is to help people living with HIV achieve and maintain optimal health, while preventing the spread of the virus to others.",
+          "HIV care typically involves regular monitoring of the virus, as well as treatment with antiretroviral therapy (ART) to suppress the virus and prevent complications.",
+          "HIV care may also include screening for and treating opportunistic infections, providing counseling and support for mental and emotional health, and addressing social and economic needs such as housing, employment, and access to healthcare.",
+          "HIV care is provided by a team of healthcare providers, including doctors, nurses, social workers, and other specialists who work together to provide comprehensive care and support for people living with HIV.",
+          "The benefits of HIV care include improved health outcomes, reduced risk of disease progression, and increased quality of life for people living with HIV.",
+          "HIV care is an essential component of public health efforts to prevent the spread of HIV and reduce the burden of disease among vulnerable populations.",
+          "Providing HIV care can be challenging, due to factors such as stigma, discrimination, and limited resources in some healthcare settings.",
+          "Over the years, HIV care has evolved to incorporate new treatments, technologies, and approaches to care that have improved the health outcomes and quality of life for people living with HIV."
+      ]
+    },
+    {
+      "tag": "medication",
+      "patterns": [
+          "What steps should I take if I experience side effects from my medication?",
+          "What are some common side effects of medication, and how should I address them?",
+          "What should I do if I think I am having an allergic reaction to my medication?",
+          "Who should I contact if I experience side effects from my medication?",
+          "What information should I provide to my healthcare provider if I experience side effects from my medication?",
+          "How can I manage side effects from my medication while still taking the medication as prescribed?",
+          "What are some warning signs that I should seek medical attention for medication side effects?",
+          "What are some strategies for preventing or minimizing medication side effects?",
+          "Should I continue taking my medication if I experience side effects, or should I stop taking it?",
+          "How can I work with my healthcare provider to manage medication side effects and ensure optimal treatment outcomes?"
+      ],
+      "responses": [
+          "If you experience side effects from medication, the first step is to contact your healthcare provider and let them know about your symptoms.",
+          "Depending on the severity of your symptoms, your healthcare provider may recommend adjusting your medication dose, switching to a different medication, or discontinuing medication use altogether.",
+          "It is important to provide your healthcare provider with detailed information about your symptoms, including when they started, how severe they are, and how they are affecting your daily life.",
+          "In some cases, your healthcare provider may recommend over-the-counter medications or other remedies to help manage your side effects, such as anti-nausea medication or topical creams for skin irritation.",
+          "If you are experiencing an allergic reaction to your medication, seek emergency medical attention immediately.",
+          "To prevent or minimize side effects from medication, be sure to take your medication as prescribed, avoid taking medications with alcohol or other substances that may interact with them, and inform your healthcare provider of any other medications or supplements you are taking.",
+          "In some cases, lifestyle changes such as adjusting your diet, getting more exercise, or reducing stress may help manage medication side effects.",
+          "It is important to never stop taking medication without consulting your healthcare provider, as this may lead to adverse health outcomes or medication resistance.",
+          "Your healthcare provider may recommend regular monitoring of your medication use and side effects, to ensure that your treatment plan is working effectively.",
+          "By working closely with your healthcare provider and staying informed about your medication use, you can manage side effects and ensure optimal treatment outcomes."
+      ]
+    },
+    {
+      "tag": "vlresults",
+      "patterns": [
+          "How is viral load measured, and what does a high viral load indicate?",
+          "Why is a high viral load concerning for people living with HIV?",
+          "What are some of the symptoms that may be associated with a high viral load?",
+          "How can a high viral load be managed or treated?",
+          "Are there any factors that can cause a high viral load in people living with HIV?",
+          "Can a high viral load increase the risk of transmitting HIV to others?",
+          "What are the implications of a high viral load for people who are receiving antiretroviral therapy (ART)?",
+          "Is it possible to have a high viral load but still maintain good health outcomes?",
+          "What steps can people living with HIV take to manage their viral load and maintain optimal health outcomes?"
+      ],
+      "responses": [
+          "A high viral load typically means that there is a large amount of HIV present in a person's bloodstream.",
+          "When someone has a high viral load, it can indicate that the virus is actively replicating and that the immune system may be struggling to keep up with the infection.",
+          "High viral loads are generally associated with an increased risk of disease progression and transmission to others.",
+          "In people who are receiving antiretroviral therapy (ART), a high viral load may indicate that the medication is not working effectively and that a change in treatment may be necessary.",
+          "A high viral load can be managed or treated with antiretroviral therapy (ART), which can reduce the amount of virus in the bloodstream and improve immune system function.",
+          "Factors that can contribute to a high viral load include poor adherence to medication, drug resistance, and advanced HIV disease.",
+          "People with a high viral load may experience symptoms such as fatigue, fever, weight loss, and swollen lymph nodes.",
+          "A high viral load can increase the risk of transmitting HIV to others, particularly during unprotected sex or sharing of needles.",
+          "Viral load testing should be performed regularly for people living with HIV to monitor the effectiveness of their treatment and detect changes in viral load levels.",
+          "People living with HIV can take steps to manage their viral load, such as adhering to medication regimens, practicing safer sex, and avoiding drug and alcohol use."
+      ]
     }
+
   ]
 }
